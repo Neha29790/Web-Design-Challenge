@@ -1,0 +1,26 @@
+body  {
+    background-image: url("world_colors.jpg");
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  h2{
+    font-weight: bold;
+  }
+  #pad{
+    padding:10px
+  }
+  
+  @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+  
+  
